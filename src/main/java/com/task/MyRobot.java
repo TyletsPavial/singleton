@@ -4,7 +4,7 @@ public class MyRobot implements Robot {
     private String action;
     private String place;
 
-    private MyRobot() {
+    public MyRobot() {
     }
 
     public String getAction() {

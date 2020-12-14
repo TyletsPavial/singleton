@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.Properties;
 
 public class ObjectFactory {
-    private static Map<String, Object> container = new HashMap<String, Object>();
+    private static Container container = new Container();
 
 
     public static <T> T getInstance(Class<T> aClass) throws Exception {
